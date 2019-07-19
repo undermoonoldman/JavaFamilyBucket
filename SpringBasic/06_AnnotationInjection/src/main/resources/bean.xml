@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--    Spring中的依赖注入
+        IOC降低耦合,把依赖关系交给Spring来维护
+        在当前类中需要其他类,由Spring提供,只需在配置中声明,称为依赖注入
+
+        能注入的数据有三类: 1.基本类型与String ; 2.其他Bean类型(需配置) ; 3.集合类型(复杂类型)
+
+        注入方式有三种: 1.使用构造函数(创建对象时必须赋值属性,不推荐) ; 2.使用set方法(推荐) ; 3.使用注解提供-->
+
+    <!--    告知Spring在创建容器时要扫描的包,配置所需要的标签不在beans的约束中-->
+    
+    <context:component-scan base-package="com.undermoonoldman"></context:component-scan>
+</beans>
+

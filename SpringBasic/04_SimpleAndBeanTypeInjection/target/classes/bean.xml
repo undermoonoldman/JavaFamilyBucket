@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    Spring中的依赖注入
+        IOC降低耦合,把依赖关系交给Spring来维护
+        在当前类中需要其他类,由Spring提供,只需在配置中声明,称为依赖注入
+
+        能注入的数据有三类: 1.基本类型与String ; 2.其他Bean类型(需配置) ; 3.集合类型(复杂类型)
+
+        注入方式有三种: 1.使用构造函数(创建对象时必须赋值属性,不推荐) ; 2.使用set方法(推荐) ; 3.使用注解提供-->
+
+<!--    1.构造函数注入,bean标签内部,写上其他标签属性
+        type:数据类型; index:构造函数的参数位置,从零开始; name:为指定的参数赋值;
+        value:提供基本类型以及String类型的数据, ref:指定其他bean类型的数据(在spring容器中的bean对象,需要配置)-->
+    <bean id="accountService" class="com.undermoonoldman.service.AccountServiceImpl">
+        <constructor-arg name="name" value="LiMing"></constructor-arg>
+        <constructor-arg name="age" value="18"></constructor-arg>
+        <constructor-arg name="birthday" ref="now"></constructor-arg>
+    </bean>
+    <bean id="now" class="java.util.Date"></bean>
+
+<!--    2.set方法注入,bean标签内部写上其他标签属性,需要屏蔽带参构造函数
+        property:同样配置 name(根据set方法来判断,不是属性名称来判断), value, ref-->
+<!--    <bean id="now" class="java.util.Date"></bean>-->
+
+<!--    <bean id="accountService" class="com.undermoonoldman.service.AccountServiceImpl">-->
+<!--        <property name="name" value="LiMing"></property>-->
+<!--        <property name="age" value="18"></property>-->
+<!--        <property name="birthday" ref="now"></property>-->
+<!--    </bean>-->
+
+
+</beans>
