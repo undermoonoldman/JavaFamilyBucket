@@ -26,33 +26,7 @@
 
 #### C. 建立BeanFactory类即对象工厂类,该类在被加载时就完成了读取配置文件,按照配置文件中的配置创建对象,并把对象按照小名为索引添加到内置的Map容器中去。
 
-```flow
-
-st=>start: 读入配置文件
-
-op1=>operation: 解析配置文件
-
-op2=>operation: 解析对象别名
-
-op3=>operation: 解析对象全类名
-
-op4=>operation: 根据全类名反射创建对象并放入Map容器中
-
-op5=>operation: key为对象的别名
-
-op6=>operation: value为对象的引用
-
-sub1=>subroutine: 子流程
-
-io=>inputoutput: 输入输出框
-
-e=>end: 需要对象时直接从容器中调取即可
-
-st->op1->op2->op3->op4->op5->op6->e
-
-
-
-```
+![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/001.jpg)
 
 
 
