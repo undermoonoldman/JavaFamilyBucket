@@ -22,7 +22,7 @@
 | [16_JdbcTemplateInSpring](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/SpringMvcBasic/16_JdbcTemplateInSpring) |    Spring中的JDBC模板    |
 | [17_JdbcDaoHelper](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/SpringMvcBasic/17_JdbcDaoHelper) | Spring中的JDBCDaoHelper  |
 | [18_AopBasedTransaction](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/SpringMvcBasic/18_AopBasedTransaction) |      基于AOP的事务       |
-| [19_AnnotationDeclarative Transaction](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/SpringMvcBasic/19_AnnotationDeclarative Transaction) |   基于注解的声明式事务   |
+| [19_AnnotationDeclarativeTransaction](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/SpringMvcBasic/19_AnnotationDeclarativeTransaction) |   基于注解的声明式事务   |
 | [20_XmlDeclarativeTransaction](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/SpringMvcBasic/20_XmlDeclarativeTransaction) |   基于XML的声明式事务    |
 
 ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/c.jpeg)
