@@ -71,13 +71,12 @@
 | [06_Url&ResourceInProperties](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/06_Url&ResourceInProperties) | Url与Resource的方式使用Properties配置文件 |
 | [07_TypeAliases](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/07_TypeAliases) |          使用typeAliases配置别名          |
 | [08_Transaction&DataSource](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/08_Transaction&DataSource) |             配置数据源与事务              |
-| [09_OneToOneMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/09_OneToOneMapping) |                                           |
-| [10_OneToManyMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/10_OneToManyMapping) |                                           |
-| [11_ManyToManyMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/11_ManyToManyMapping) |                                           |
-| [12_OneToOneLazyLoad](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/12_OneToOneLazyLoad) |                                           |
-| [13_OneToManyLazyLoad](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/13_OneToManyLazyLoad) |                                           |
-| [14_AnnotationCrudDemo](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/14_AnnotationCrudDemo) |                                           |
-| [15_Pojo&DataBaseMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/15_Pojo&DataBaseMapping) |                                           |
-| [16_OneToOneAnnotation](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/16_OneToOneAnnotation) |                                           |
-| [17_OneToManyAnnotation](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/17_OneToManyAnnotation) |                                           |
-
+| [09_OneToOneMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/09_OneToOneMapping) |                一对一映射                 |
+| [10_OneToManyMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/10_OneToManyMapping) |                一对多映射                 |
+| [11_ManyToManyMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/11_ManyToManyMapping) |                多对多映射                 |
+| [12_OneToOneLazyLoad](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/12_OneToOneLazyLoad) |               一对一懒加载                |
+| [13_OneToManyLazyLoad](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/13_OneToManyLazyLoad) |               一对多懒加载                |
+| [14_AnnotationCrudDemo](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/14_AnnotationCrudDemo) |         基于注解的增删改查小案例          |
+| [15_Pojo&DataBaseMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/15_Pojo&DataBaseMapping) |              对象数据库映射               |
+| [16_OneToOneAnnotation](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/16_OneToOneAnnotation) |                一对一注解                 |
+| [17_OneToManyAnnotation](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/17_OneToManyAnnotation) |                一对多注解                 |
