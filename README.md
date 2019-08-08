@@ -70,7 +70,7 @@
 | [05_DaoImplByUser](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/05_DaoImplByUser) |           用户自己编写Dao实现类           |
 | [06_Url&ResourceInProperties](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/06_Url&ResourceInProperties) | Url与Resource的方式使用Properties配置文件 |
 | [07_TypeAliases](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/07_TypeAliases) |          使用typeAliases配置别名          |
-| [08_Transaction&DataSource](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/08_Transaction&DataSource) |                                           |
+| [08_Transaction&DataSource](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/08_Transaction&DataSource) |             配置数据源与事务              |
 | [09_OneToOneMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/09_OneToOneMapping) |                                           |
 | [10_OneToManyMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/10_OneToManyMapping) |                                           |
 | [11_ManyToManyMapping](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/MyBatisBasic/11_ManyToManyMapping) |                                           |
