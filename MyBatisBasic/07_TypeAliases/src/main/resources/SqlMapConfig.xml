@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--mybatis的主配置文件-->
+<configuration>
+    <properties>
+        <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/test"/>
+        <property name="username" value="root"/>
+        <property name="password" value="805237796"/>
+    </properties>
+    <!--    使用typeAliases配置别名,只能配置domain中类的别名
+                type:指定全类名
+                alias:指定别名,指定别名后不区分大小写
+            package配置别名的包,指定包后,下面的实体类都会注册别名,类名即为别名,不区分大小写-->
+    <typeAliases>
+        <typeAlias type="com.undermoonoldman.dao.UserDao" alias="UserDao"></typeAlias>
+        <package name="com.undermoonoldman.bean"/>
+    </typeAliases>
+
+    <!--    配置环境-->
+    <environments default="mysql">
+        <!--        配置mysql环境-->
+        <environment id="mysql">
+            <!--            配置事务类型-->
+            <transactionManager type="jdbc"></transactionManager>
+            <!--            配置数据源,又称连接池-->
+            <dataSource type="POOLED">
+                <!--            配置连接数据库的基本信息-->
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+<!--        package标签指定dao接口所在的包,指定之后就不需要再写mapper以及resource或class了-->
+        <package name="com.undermoonoldman.dao"/>
+<!--        <mapper resource="com/undermoonoldman/dao/UserDao.xml"></mapper>-->
+    </mappers>
+</configuration>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--1.要求映射配置文件与dao包结构相同
+    2.namespace属性名称为dao接口的全限定类名
+    3.id属性的取值为dao接口的方法名称
+    4.resulType指定结果集封装对象
+    当遵守了前三点后,可以不用写dao的实现类了-->
+<mapper namespace="com.undermoonoldman.dao.AccountDao">
+
+    <resultMap id="accountUserMap" type="com.undermoonoldman.bean.Account">
+        <id property="id" column="id"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+
+<!--        一对一关系映射延迟加载:配置封装user的内容
+            select:指定查询用户的唯一标识
+            colomn:用户根据id查询时,所需要参数的值
+
+            注:还需开启延迟加载全局开关才行-->
+        <association property="user" column="uid" javaType="com.undermoonoldman.bean.User" select="com.undermoonoldman.dao.UserDao.findUserById"></association>
+    </resultMap>
+
+    <!--    配置查询所有的延迟加载方法-->
+    <!--    id指向方法名称-->
+    <select id="findAll" resultMap="accountUserMap">
+        select * from account
+    </select>
+
+    <select id="findAllAccount" resultType="com.undermoonoldman.bean.AccountUser">
+        select u.* ,a.id ,a.uid ,a.money from account a, user u where u.id = a.uid;
+    </select>
+
+    <select id="findAccountByUserId" resultType="com.undermoonoldman.bean.Account" parameterType="java.lang.Integer">
+        select * from account where uid = #{userid}
+    </select>
+
+</mapper>

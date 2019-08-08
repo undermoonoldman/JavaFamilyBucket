@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--1.要求映射配置文件与dao包结构相同
+    2.namespace属性名称为dao接口的全限定类名
+    3.id属性的取值为dao接口的方法名称
+    4.resulType指定结果集封装对象
+    当遵守了前三点后,可以不用写dao的实现类了-->
+<mapper namespace="com.undermoonoldman.dao.UserDao">
+    <resultMap id="userMap" type="com.undermoonoldman.bean.User">
+        <id property="id" column="userid"></id>
+        <result property="username" column="username"></result>
+        <result property="birthday" column="birthday"></result>
+        <result property="sex" column="sex"></result>
+        <result property="address" column="address"></result>
+        <collection property="roles" ofType="com.undermoonoldman.bean.Role">
+            <id property="roleId" column="id"></id>
+            <result property="roleName" column="role_name"></result>
+            <result property="roleDesc" column="role_desc"></result>
+        </collection>
+    </resultMap>
+
+    <!--    配置查询所有-->
+    <!--    id指向方法名称-->
+    <select id="findAll" resultMap="userMap">
+        select r.*, u.id as userid, u.username, u.birthday, u.sex, u.address from user u
+         left outer join user_role ur on u.id = ur.uid
+         left outer join role r on r.id = ur.rid
+    </select>
+
+    <select id="findUserById" resultType="com.undermoonoldman.bean.User" parameterType="java.lang.Integer">
+        select * from user where id = #{userId}
+    </select>
+
+</mapper>

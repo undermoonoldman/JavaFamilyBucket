@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--1.要求映射配置文件与dao包结构相同
+    2.namespace属性名称为dao接口的全限定类名
+    3.id属性的取值为dao接口的方法名称
+    4.resulType指定结果集封装对象
+    当遵守了前三点后,可以不用写dao的实现类了-->
+<mapper namespace="com.undermoonoldman.dao.AccountDao">
+
+    <resultMap id="accountUserMap" type="com.undermoonoldman.bean.Account">
+        <id property="id" column="aid"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+<!--        配置一对一映射,配置封装user的内容-->
+        <association property="user" column="uid">
+            <id property="id" column="id"></id>
+            <result property="username" column="username"></result>
+            <result property="birthday" column="birthday"></result>
+            <result property="sex" column="sex"></result>
+            <result property="address" column="address"></result>
+        </association>
+    </resultMap>
+
+    <!--    配置查询所有-->
+    <!--    id指向方法名称-->
+    <select id="findAll" resultMap="accountUserMap">
+        select u.* ,a.id as aid ,a.uid ,a.money from account a, user u where u.id = a.uid;
+    </select>
+
+    <select id="findAllAccount" resultType="com.undermoonoldman.bean.AccountUser">
+        select u.* ,a.id ,a.uid ,a.money from account a, user u where u.id = a.uid;
+    </select>
+
+</mapper>
