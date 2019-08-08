@@ -14,4 +14,4 @@
 | [08_InterceptorAndExceptionHandle](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/SpringMvcBasic/08_InterceptorAndExceptionHandle) |    异常处理器与请求拦截器    |
 | [09_IntegrationOfSSM](https://github.com/undermoonoldman/SpringFamilyBucket/tree/master/SpringMvcBasic/09_IntegrationOfSSM) |         SSM框架整合          |
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/b.jpg)
+![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/e.jpeg)
