@@ -12,6 +12,6 @@
 
 ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/074.jpg)
 
-1. ## 在对应的 Sql 标签中使用刚才配置的结果集作为 resultMap
+2. ## 在对应的 Sql 标签中使用刚才配置的结果集作为 resultMap
 
 ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/075.jpg)
