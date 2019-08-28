@@ -22,4 +22,4 @@
 | [16_OneToOneAnnotation](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/MyBatisBasic/16_OneToOneAnnotation) |           基于注解的一对一注解            |
 | [17_OneToManyAnnotation](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/MyBatisBasic/17_OneToManyAnnotation) |           基于注解的一对多注解            |
 
-![正事配图](https://github.com/NoMoreThanAWord/JavaFamilyBucket/raw/master/Resource/IMG/g.jpeg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/g.jpeg)

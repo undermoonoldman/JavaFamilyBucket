@@ -25,4 +25,4 @@
 | [19_AnnotationDeclarativeTransaction](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/SpringBasic/19_AnnotationDeclarativeTransaction) |   基于注解的声明式事务   |
 | [20_XmlDeclarativeTransaction](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/SpringBasic/20_XmlDeclarativeTransaction) |   基于XML的声明式事务    |
 
-![正事配图](https://github.com/NoMoreThanAWord/JavaFamilyBucket/raw/master/Resource/IMG/c.jpeg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/c.jpeg)
