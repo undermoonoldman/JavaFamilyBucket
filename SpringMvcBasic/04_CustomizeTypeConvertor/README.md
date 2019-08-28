@@ -6,13 +6,13 @@
 
    1. ### 自定义类型转换器，编写 convert 方法
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/005.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/005.jpg)
 
    2. ### 在 springmvc.xml 中编写配置，注册刚才定义的类型转换器
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/006.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/006.jpg)
       
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/007.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/007.jpg)
 
 3. ## 在 Controller 中使用原生的 ServletAPI 对象
 

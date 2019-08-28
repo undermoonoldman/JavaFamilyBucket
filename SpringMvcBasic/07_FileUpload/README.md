@@ -4,11 +4,11 @@
 
    1. ### 导入相关的 jar 包
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/032.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/032.jpg)
 
    2. ### 使用 post 表单进行上传，并修改表单的正文请求类型 enctype 选项为 multipart/form-data
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/033.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/033.jpg)
 
 2. ## 传统的文件上传方式
 
@@ -26,17 +26,17 @@
 
    7. ### 传统上传方式会产生临时文件，最后对临时文件做删除操作
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/034.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/034.jpg)
 
 3. ## SpringMvc方式文件上传
 
-   ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/039.bmp)
+   ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/039.bmp)
 
    ### SpringMvc 提供的 MutipartFile 对象，表示上传的文件，要求改对象名称要与表单 file 标签的 name 保持一致
 
    ### **前期准备，在 SpringMvc 配置文件中配置文件解析器对象。文件解析器会代我们完成解析并把结果封装到 MutipartFile 对象中**
 
-   ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/035.jpg)
+   ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/035.jpg)
 
    1. ### 同上
 
@@ -46,11 +46,11 @@
 
    4. ### ~~删除临时文件(并不需要了)~~
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/036.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/036.jpg)
 
 4. ## SpringMvc 跨服务器文件上传
 
-   ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/040.bmp)
+   ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/040.bmp)
 
    + ### 这里需要准备两台服务器，一台图片服务器，一台应用服务器
 
@@ -60,7 +60,7 @@
 
    + ### 还需导入跨服务器上传相关的 jar 包
 
-     ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/037.jpg)
+     ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/037.jpg)
 
    1. ### 定义图片服务器的请求路径(要确保图片服务器上传图片的文件夹存在)
 
@@ -72,4 +72,4 @@
 
    5. ### 上传文件
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/038.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/038.jpg)

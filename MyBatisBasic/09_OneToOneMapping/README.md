@@ -10,8 +10,8 @@
 
    3. ### 使用 association 标签配置关联后实体类与数据库字段映射
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/074.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/074.jpg)
 
 2. ## 在对应的 Sql 标签中使用刚才配置的结果集作为 resultMap
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/075.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/075.jpg)

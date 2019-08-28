@@ -32,12 +32,12 @@
 
 4. ## 集合类型
 
-   ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/003.jpg)
+   ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/003.jpg)
 
 5. ## 解决请求参数中文乱码问题
 
    1. ### post 请求：在 web.xml 中配置 Spring 提供的过滤器
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/004.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/004.jpg)
 
    2. ### get 请求：在 Tomcat 的配置文件 server.xml 中的 <connector> 标签中加一个属性 URIEncoding = "UTF-8"

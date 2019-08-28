@@ -1,6 +1,6 @@
 # ***基于注解的对象数据库映射***
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/088.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/088.jpg)
 
 1. ## 使用 @Results 注解定义结果集映射
 

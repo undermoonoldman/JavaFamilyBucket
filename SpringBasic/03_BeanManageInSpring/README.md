@@ -24,5 +24,5 @@
 
   2. ### prototype:多例,懒加载,使用是才加载,垃圾回收器负责回收
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/002.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/002.jpg)
 

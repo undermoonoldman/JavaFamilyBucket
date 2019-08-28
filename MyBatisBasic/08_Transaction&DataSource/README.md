@@ -1,6 +1,6 @@
 # ***配置数据源与事务***
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/073.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/073.jpg)
 
 1. ## transactionManager 配置事务管理器
 

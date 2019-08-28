@@ -2,7 +2,7 @@
 
 1. ## 创建 Dao 实现类并进行编写
 
-   ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/068.jpg)
+   ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/068.jpg)
 
    1. ### 利用 SqlSessionFactory 获取 SqlSession
 
@@ -12,6 +12,6 @@
 
 2. ## 编写测试类
 
-   ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/069.jpg)
+   ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/069.jpg)
 
    ### 传入 SqlSessionFactory 工厂创建 Dao 实现类，之前是用 SqlSession 创建 Dao 的代理类对象

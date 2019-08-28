@@ -2,7 +2,7 @@
 
 1. ## 导入坐标
 
-   ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/057.jpg)
+   ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/057.jpg)
 
 2. ## 建库，建表
 
@@ -24,7 +24,7 @@
 
    3. ### 指定映射配置文件的位置
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/058.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/058.jpg)
 
 6. ## 在 resource 文件夹下创建与 Dao 层相同的包结构，在 Dao 包下创建 UserDao.xml 的映射文件并进行编写
 
@@ -36,7 +36,7 @@
 
    4. ### 映射文件与 Dao 包结构相同
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/059.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/059.jpg)
 
 7. ## 编写测试类
 
@@ -52,6 +52,6 @@
 
    6. ### 组合释放资源
 
-      ![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/060.jpg)
+      ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/060.jpg)
 
       

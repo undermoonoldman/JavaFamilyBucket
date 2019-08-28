@@ -16,4 +16,4 @@
 
       2. #### fetchType：配置是否懒加载，FetchType.EAGER 开启懒加载
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/090.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/090.jpg)

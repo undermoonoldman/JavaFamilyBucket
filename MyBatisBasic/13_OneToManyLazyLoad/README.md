@@ -16,13 +16,13 @@
 
       3. #### select：指定用于唯一查询所使用的 Dao 类中的方法
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/085.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/085.jpg)
 
 2. ## 在对应的 Sql 标签中使用刚才配置的结果集作为 resultMap
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/086.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/086.jpg)
 
 2. ## 还需要在 MyBatis 主配置文件 SqlMapConfig.xml 中配置开启延迟加载全局开关
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/082.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/082.jpg)
 

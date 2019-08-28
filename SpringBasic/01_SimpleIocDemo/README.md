@@ -26,7 +26,7 @@
 
 #### C. 建立BeanFactory类即对象工厂类,该类在被加载时就完成了读取配置文件,按照配置文件中的配置创建对象,并把对象按照小名为索引添加到内置的Map容器中去。
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/001.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/001.jpg)
 
 
 

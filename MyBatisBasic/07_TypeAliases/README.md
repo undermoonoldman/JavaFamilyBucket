@@ -10,4 +10,4 @@
 
    2. ### alias:指定别名,指定别名后不区分大小写
 
-![正事配图](https://github.com/NoMoreThanAWord/SpringFamilyBucket/raw/master/Resource/IMG/072.jpg)
+![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/072.jpg)
