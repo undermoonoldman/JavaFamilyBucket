@@ -33,7 +33,7 @@
 | [19_AnnotationDeclarativeTransaction](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/SpringBasic/19_AnnotationDeclarativeTransaction) |   基于注解的声明式事务   |
 | [20_XmlDeclarativeTransaction](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/SpringBasic/20_XmlDeclarativeTransaction) |   基于XML的声明式事务    |
 
-
+---
 
 ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/d.jpeg)
 
@@ -53,7 +53,7 @@
 | [08_InterceptorAndExceptionHandle](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/SpringMvcBasic/08_InterceptorAndExceptionHandle) |    异常处理器与请求拦截器    |
 | [09_IntegrationOfSSM](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/SpringMvcBasic/09_IntegrationOfSSM) |         SSM框架整合          |
 
-
+---
 
 ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/f.jpeg)
 
@@ -81,7 +81,7 @@
 | [16_OneToOneAnnotation](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/MyBatisBasic/16_OneToOneAnnotation) |           基于注解的一对一注解            |
 | [17_OneToManyAnnotation](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/MyBatisBasic/17_OneToManyAnnotation) |           基于注解的一对多注解            |
 
-
+---
 
 ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/i.jpeg)
 
