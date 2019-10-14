@@ -91,7 +91,7 @@
 
 | 章节                                                         |       简介        |
 | :----------------------------------------------------------- | :---------------: |
-| [01_JavaMemoryModel](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/JavaConcurrency/01_JavaMemoryModel) | 简易的IOC容器案例 |
+| [01_JavaMemoryModel](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/JavaConcurrency/01_JavaMemoryModel) |   Java内存模型    |
 | [02_ThreadSafety](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/JavaConcurrency/02_ThreadSafety) | Spring中的IOC容器 |
 | [03_SafePublication](https://github.com/undermoonoldman/JavaFamilyBucket/tree/master/JavaConcurrency/03_SafePublication) |   安全发布对象    |
 
