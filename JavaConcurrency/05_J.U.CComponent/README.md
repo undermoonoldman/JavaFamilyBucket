@@ -12,7 +12,7 @@
 
    ### 使用AQS能简单且高效地构造出应用广泛的大量的同步器，比如提到的ReentrantLock，Semaphore，其他的诸如ReentrantReadWriteLock，SynchronousQueue，FutureTask等等皆是基于AQS的。当然，也能利用AQS非常轻松容易地构造出符合私人需求的同步器，由此可知AQS是Java并发包中最为核心的一个基类。AbstractQueuedSynchronizer底层数据结构是一个双向链表，属于队列的一种实现 : 
 
-   ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/098.jpg)
+   ![正事配图](https://raw.githubusercontent.com/undermoonoldman/JavaFamilyBucket/master/Resource/IMG/098.jpeg)
 
    - ### Sync queue : 同步队列，其中head节点主要负责后面的调度
 
