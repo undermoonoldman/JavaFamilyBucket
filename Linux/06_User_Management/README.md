@@ -22,7 +22,7 @@
 
    2. ### /etc/shadow 影子文件
 
-      #### root:aa&9w5Td6lg$bgpsy3olsq9WwWvS5Sst2W3ZiJpuCGDY.4w4MRk3ob/i85fI38RH15wzVoomff9isV1Pzd cXmixzhnMVhMxbv0:15775:0:99999:7:::
+      #### root : aa&9w5Td6lg$bgpsy3olsq9WwWvS5Sst2W3ZiJpuCGDY.4w4MRk3ob/i85fI38RH15wzVoomff9isV1Pzd cXmixzhnMVhMxbv0 : 15775 : 0 : 99999 : 7 : : :
 
       + ##### 第一列: 用户名
 
